@@ -177,9 +177,9 @@ collision_layer = 2
 script = ExtResource("1_u3m4f")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=350663985]
-position = Vector2(0, -12)
+position = Vector2(0, -13)
 sprite_frames = SubResource("SpriteFrames_vcdpf")
-animation = &"jump"
+animation = &"run"
 autoplay = "idel"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1999870356]
