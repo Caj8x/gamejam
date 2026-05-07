@@ -1,0 +1,73 @@
+[gd_scene format=3 uid="uid://b82clfbwrg74c"]
+
+[ext_resource type="Texture2D" uid="uid://c45m2bkgmcel4" path="res://icon.svg" id="1_0hol4"]
+[ext_resource type="Texture2D" uid="uid://cbbb0am6bf6a4" path="res://les.png" id="1_epypp"]
+[ext_resource type="Script" uid="uid://cm23pxoibostf" path="res://node_2d.gd" id="1_rj586"]
+[ext_resource type="Texture2D" uid="uid://bxvd4sxc5w3nx" path="res://barak.png" id="2_0hol4"]
+[ext_resource type="Script" uid="uid://vnb2ghl88j1t" path="res://barák.gd" id="2_4d7sh"]
+[ext_resource type="Texture2D" uid="uid://csb3ha8wlfo4v" path="res://glitchkamera.webp" id="3_q6r6c"]
+[ext_resource type="Script" uid="uid://c81aka0h2gtoa" path="res://icon_2.gd" id="4_ir8iy"]
+[ext_resource type="Script" uid="uid://vsxunv6c5x1w" path="res://k_1.gd" id="5_hqns4"]
+
+[node name="Node2D" type="Node2D" unique_id=1842780975]
+script = ExtResource("1_rj586")
+
+[node name="barák" type="TileMap" parent="." unique_id=820000091]
+format = 2
+script = ExtResource("2_4d7sh")
+
+[node name="barák" type="Sprite2D" parent="barák" unique_id=1558431679]
+position = Vector2(576.5, 324.5)
+scale = Vector2(8.9921875, 5.1171875)
+texture = ExtResource("1_0hol4")
+
+[node name="button_2" type="Sprite2D" parent="barák/barák" unique_id=1008768819]
+position = Vector2(44.205048, 24.329773)
+scale = Vector2(0.11120765, 0.19541985)
+texture = ExtResource("1_0hol4")
+script = ExtResource("4_ir8iy")
+
+[node name="kamery" type="Node" parent="." unique_id=1278233712]
+
+[node name="k1" type="TileMap" parent="kamery" unique_id=1859899806]
+visible = false
+format = 2
+script = ExtResource("5_hqns4")
+
+[node name="Les" type="Sprite2D" parent="kamery/k1" unique_id=1343060888]
+position = Vector2(579, 330.25003)
+scale = Vector2(0.59999996, 0.60231483)
+texture = ExtResource("1_epypp")
+
+[node name="Icon" type="Sprite2D" parent="kamery/k1" unique_id=1722805607]
+position = Vector2(991, 539)
+scale = Vector2(0.69531256, 0.6953125)
+texture = ExtResource("1_0hol4")
+
+[node name="k2" type="TileMap" parent="kamery" unique_id=1571344407]
+visible = false
+format = 2
+
+[node name="Barak" type="Sprite2D" parent="kamery/k2" unique_id=57571549]
+position = Vector2(576.625, 323.625)
+scale = Vector2(0.71627104, 0.6859659)
+texture = ExtResource("2_0hol4")
+
+[node name="Icon" type="Sprite2D" parent="kamery/k2" unique_id=1845879820]
+position = Vector2(991, 539)
+scale = Vector2(0.69531256, 0.6953125)
+texture = ExtResource("1_0hol4")
+
+[node name="audiokam" type="TileMap" parent="kamery" unique_id=287920206]
+visible = false
+format = 2
+
+[node name="Glitchkamera" type="Sprite2D" parent="kamery/audiokam" unique_id=1097306959]
+position = Vector2(578, 330.5)
+scale = Vector2(1.9033334, 2.62)
+texture = ExtResource("3_q6r6c")
+
+[node name="Icon" type="Sprite2D" parent="kamery/audiokam" unique_id=225089598]
+position = Vector2(991, 539)
+scale = Vector2(0.69531256, 0.6953125)
+texture = ExtResource("1_0hol4")
