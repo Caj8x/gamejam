@@ -1,0 +1,217 @@
+[gd_scene format=3 uid="uid://d1r45i0mg2xdn"]
+
+[ext_resource type="Texture2D" uid="uid://dgccif8jx4efi" path="res://Amerika/Fields_pozadi/9.JPG" id="1_yrf7n"]
+[ext_resource type="Texture2D" uid="uid://qnt7pyeqln71" path="res://Amerika/Fields_pozadi/8.PNG" id="2_l2782"]
+[ext_resource type="Texture2D" uid="uid://c6j3poqxx57j" path="res://Amerika/Fields_pozadi/2.PNG" id="3_tm72s"]
+[ext_resource type="Texture2D" uid="uid://d35r0n475mo0n" path="res://Amerika/Fields_pozadi/3.PNG" id="4_qwh3s"]
+[ext_resource type="Texture2D" uid="uid://j1oj7x7jtsrj" path="res://Amerika/Fields_pozadi/7.PNG" id="5_7jdch"]
+[ext_resource type="Texture2D" uid="uid://mdx7c4c40734" path="res://Amerika/Fields_pozadi/5.PNG" id="6_1mw8p"]
+[ext_resource type="Texture2D" uid="uid://8g8bjmqwgw7l" path="res://Amerika/Fields_pozadi/6.PNG" id="7_1xpud"]
+[ext_resource type="Texture2D" uid="uid://ca11evf5pwdqu" path="res://Amerika/Bigfoot/IMG_0902.PNG" id="7_p6fc5"]
+[ext_resource type="Texture2D" uid="uid://ly8t1pa6clsk" path="res://Amerika/Fields_pozadi/4.PNG" id="8_3sa33"]
+[ext_resource type="Script" uid="uid://8pr6co8djex0" path="res://character_body_2d.gd" id="9_tm72s"]
+[ext_resource type="Texture2D" uid="uid://b4s6l23l8rrq0" path="res://Amerika/chuze/rigging.0001.png" id="10_qsr67"]
+[ext_resource type="Texture2D" uid="uid://n2v0baufc4is" path="res://Amerika/chuze/rigging.0000.png" id="11_snhpk"]
+[ext_resource type="Texture2D" uid="uid://b5siq8gx7togd" path="res://Amerika/chuze/rigging.0002.png" id="12_1k62c"]
+[ext_resource type="Texture2D" uid="uid://gp2smpgb0c6t" path="res://Amerika/chuze/rigging.0003.png" id="13_0edui"]
+[ext_resource type="Texture2D" uid="uid://c2o40mro20vde" path="res://Amerika/chuze/rigging.0004.png" id="14_p6fc5"]
+[ext_resource type="Texture2D" uid="uid://c06j4fb1e85de" path="res://Amerika/chuze/rigging.0005.png" id="15_j8pvo"]
+[ext_resource type="Texture2D" uid="uid://bqbbqwlljfsg" path="res://Amerika/chuze/rigging.0006.png" id="16_gpu3q"]
+[ext_resource type="Texture2D" uid="uid://bvkrec1qlx2pl" path="res://Amerika/chuze/rigging.0007.png" id="17_4tvmb"]
+[ext_resource type="Texture2D" uid="uid://7jbvlme7l3l4" path="res://Amerika/chuze/rigging.0008.png" id="18_7dr0h"]
+[ext_resource type="Texture2D" uid="uid://d3ul4bpsxgqex" path="res://Amerika/chuze/rigging.0009.png" id="19_4wk5h"]
+[ext_resource type="Texture2D" uid="uid://bdoamuamt1038" path="res://Amerika/chuze/rigging.0010.png" id="20_406in"]
+[ext_resource type="Texture2D" uid="uid://c82au5meiotuk" path="res://Amerika/chuze/rigging.0011.png" id="21_d4o4r"]
+[ext_resource type="Texture2D" uid="uid://52vt07815awb" path="res://Amerika/chuze/rigging.0012.png" id="22_f1bs0"]
+[ext_resource type="Texture2D" uid="uid://b6lo5lsdvv2kh" path="res://Amerika/chuze/rigging.0013.png" id="23_st31x"]
+[ext_resource type="Texture2D" uid="uid://bcx8n8ugrfmw8" path="res://Amerika/chuze/rigging.0014.png" id="24_76y2q"]
+[ext_resource type="Texture2D" uid="uid://crrktnyopj68l" path="res://Amerika/chuze/rigging.0015.png" id="25_cufpv"]
+[ext_resource type="Texture2D" uid="uid://b12jo23kfvmeg" path="res://Amerika/chuze/rigging.0016.png" id="26_d15on"]
+[ext_resource type="Texture2D" uid="uid://cbobix6k80u08" path="res://Amerika/neutral.-001.png" id="27_snhpk"]
+[ext_resource type="Texture2D" uid="uid://bd3x8r3j6h4m4" path="res://Amerika/cone.png" id="28_1k62c"]
+[ext_resource type="Texture2D" uid="uid://cm2rvtx33uv3x" path="res://Amerika/Bigfoot/IMG_0901.PNG" id="29_0edui"]
+[ext_resource type="Texture2D" uid="uid://dgtea6ora7wp4" path="res://Amerika/Fields_pozadi/1.PNG" id="29_j8pvo"]
+
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_7jdch"]
+distance = -364.69403
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_tm72s"]
+radius = 59.03389
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_3yiyu"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("10_qsr67")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_snhpk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_1k62c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_0edui")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_p6fc5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_j8pvo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_gpu3q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_4tvmb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_7dr0h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_4wk5h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_406in")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_d4o4r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_f1bs0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_st31x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_76y2q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_cufpv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_d15on")
+}],
+"loop": false,
+"name": &"chůze",
+"speed": 15.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("27_snhpk")
+}],
+"loop": false,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="bigfoot" type="Node2D" unique_id=245206830]
+position = Vector2(2562, -35.999996)
+scale = Vector2(0.7, 0.7)
+
+[node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=1576386590]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D" unique_id=1821845895]
+position = Vector2(2045.9993, 578.99994)
+scale = Vector2(0.69999987, 0.69999987)
+shape = SubResource("WorldBoundaryShape2D_7jdch")
+
+[node name="pozadí" type="Node" parent="." unique_id=272953015]
+
+[node name="9" type="Sprite2D" parent="pozadí" unique_id=328708788]
+position = Vector2(4001.1604, 287.81)
+scale = Vector2(0.48999998, 0.48999998)
+texture = ExtResource("1_yrf7n")
+
+[node name="8" type="Sprite2D" parent="pozadí" unique_id=1265653887]
+position = Vector2(3950.16, 292.81)
+scale = Vector2(0.48999998, 0.48999998)
+texture = ExtResource("2_l2782")
+
+[node name="7" type="Sprite2D" parent="pozadí" unique_id=2093068903]
+position = Vector2(4006.16, 329.81)
+scale = Vector2(0.48999998, 0.48999998)
+texture = ExtResource("5_7jdch")
+
+[node name="5" type="Sprite2D" parent="pozadí" unique_id=267732486]
+position = Vector2(4002.16, 364.80997)
+scale = Vector2(0.48999998, 0.48999998)
+texture = ExtResource("6_1mw8p")
+
+[node name="Img0902" type="Sprite2D" parent="pozadí" unique_id=1414982621]
+position = Vector2(3532, 451)
+scale = Vector2(0.12, 0.12)
+texture = ExtResource("7_p6fc5")
+
+[node name="6" type="Sprite2D" parent="pozadí" unique_id=303488199]
+position = Vector2(4009.1602, 360.80997)
+scale = Vector2(0.48999998, 0.48999998)
+texture = ExtResource("7_1xpud")
+
+[node name="Img0901" type="Sprite2D" parent="pozadí" unique_id=12464324]
+position = Vector2(7807.16, 458.81)
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("29_0edui")
+
+[node name="hráč" type="Node" parent="." unique_id=1631505263]
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="hráč" unique_id=623760257]
+script = ExtResource("9_tm72s")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="hráč/CharacterBody2D" unique_id=726706315]
+position = Vector2(465, 487)
+shape = SubResource("CircleShape2D_tm72s")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="hráč/CharacterBody2D" unique_id=1172314872]
+position = Vector2(468, 486)
+sprite_frames = SubResource("SpriteFrames_3yiyu")
+animation = &"chůze"
+
+[node name="Camera2D" type="Camera2D" parent="hráč/CharacterBody2D" unique_id=276222619]
+position = Vector2(569, 318)
+
+[node name="facing_right" type="PointLight2D" parent="hráč/CharacterBody2D" unique_id=1432892427]
+z_as_relative = false
+position = Vector2(955.00006, 470)
+scale = Vector2(4.2517323, 2.93464)
+energy = 2.09
+range_z_min = -1028
+texture = ExtResource("28_1k62c")
+texture_scale = 0.81
+
+[node name="facing_left" type="PointLight2D" parent="hráč/CharacterBody2D" unique_id=220214914]
+visible = false
+z_as_relative = false
+position = Vector2(15, 443)
+rotation = 3.1415927
+scale = Vector2(4.2517323, 2.93464)
+energy = 2.09
+range_z_min = -1028
+texture = ExtResource("28_1k62c")
+texture_scale = 0.81
+
+[node name="4" type="Sprite2D" parent="hráč" unique_id=2133717864]
+position = Vector2(3998, 366)
+scale = Vector2(0.4899999, 0.4899999)
+texture = ExtResource("8_3sa33")
+
+[node name="1" type="Sprite2D" parent="hráč" unique_id=1202489248]
+position = Vector2(3928.1604, 444.81)
+scale = Vector2(0.343, 0.343)
+texture = ExtResource("29_j8pvo")
+
+[node name="2" type="Sprite2D" parent="hráč" unique_id=851503180]
+position = Vector2(4008.9998, 367)
+scale = Vector2(0.48999998, 0.48999998)
+texture = ExtResource("3_tm72s")
+
+[node name="3" type="Sprite2D" parent="hráč" unique_id=1120895400]
+position = Vector2(4009.16, 361.81)
+scale = Vector2(0.48999998, 0.48999998)
+texture = ExtResource("4_qwh3s")
+
+[node name="CanvasGroup" type="CanvasGroup" parent="." unique_id=1450122756]
+scale = Vector2(0.99999994, 0.99999994)
+
+[node name="CanvasModulate" type="CanvasModulate" parent="CanvasGroup" unique_id=1883927745]
+color = Color(0.35612807, 0.35612807, 0.35612807, 1)

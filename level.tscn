@@ -1,0 +1,71 @@
+[gd_scene format=3 uid="uid://chiqsy8ixr870"]
+
+[ext_resource type="Texture2D" uid="uid://b532kyg8lndc7" path="res://icon.svg" id="1_u52ul"]
+[ext_resource type="Script" uid="uid://ty60ctpvafk1" path="res://player(character_body_2d).gd" id="1_vonw3"]
+
+[node name="Level (Node2D)" type="Node2D" unique_id=1451043136]
+
+[node name="Player(CharacterBody2D)" type="CharacterBody2D" parent="." unique_id=516846100]
+script = ExtResource("1_vonw3")
+
+[node name="Sprite2D" type="Sprite2D" parent="Player(CharacterBody2D)" unique_id=875610250]
+texture = ExtResource("1_u52ul")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Player(CharacterBody2D)" unique_id=1614284195]
+
+[node name="FireLight (PointLight2D)" type="PointLight2D" parent="Player(CharacterBody2D)" unique_id=982936211]
+
+[node name="Camera2D" type="Camera2D" parent="Player(CharacterBody2D)" unique_id=1165323474]
+
+[node name="Enemies (Node2D)" type="Node2D" parent="." unique_id=1910285053]
+
+[node name="Enemy (CharacterBody2D)" type="CharacterBody2D" parent="Enemies (Node2D)" unique_id=2096966985]
+
+[node name="Enemy (CharacterBody2D)2" type="CharacterBody2D" parent="Enemies (Node2D)" unique_id=858074510]
+
+[node name="Enemy (CharacterBody2D)3" type="CharacterBody2D" parent="Enemies (Node2D)" unique_id=554450015]
+
+[node name="FuelItems (Node2D)" type="Node2D" parent="." unique_id=1378091305]
+
+[node name="Stick (Area2D)" type="Area2D" parent="FuelItems (Node2D)" unique_id=1184683030]
+
+[node name="Sprite2D" type="Sprite2D" parent="FuelItems (Node2D)/Stick (Area2D)" unique_id=1405170984]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="FuelItems (Node2D)/Stick (Area2D)" unique_id=35998408]
+
+[node name="Goal (Area2D)" type="Area2D" parent="." unique_id=1896296930]
+
+[node name="Sprite2D" type="Sprite2D" parent="Goal (Area2D)" unique_id=122708616]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Goal (Area2D)" unique_id=1558013309]
+
+[node name="Environment (Node2D)" type="Node2D" parent="." unique_id=1597880652]
+
+[node name="TileMap" type="TileMap" parent="Environment (Node2D)" unique_id=360594361]
+format = 2
+
+[node name="Obstacle (StaticBody2D)" type="StaticBody2D" parent="Environment (Node2D)" unique_id=1764816109]
+
+[node name="Sprite2D" type="Sprite2D" parent="Environment (Node2D)/Obstacle (StaticBody2D)" unique_id=1394312984]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Environment (Node2D)/Obstacle (StaticBody2D)" unique_id=2093608799]
+
+[node name="Sprite2D2" type="Sprite2D" parent="." unique_id=1655217490]
+position = Vector2(376, -341)
+texture = ExtResource("1_u52ul")
+
+[node name="Sprite2D3" type="Sprite2D" parent="." unique_id=160663438]
+position = Vector2(-222, -608)
+texture = ExtResource("1_u52ul")
+
+[node name="Sprite2D4" type="Sprite2D" parent="." unique_id=39878153]
+position = Vector2(370, -968)
+texture = ExtResource("1_u52ul")
+
+[node name="Sprite2D5" type="Sprite2D" parent="." unique_id=499165988]
+position = Vector2(-533, -1315)
+texture = ExtResource("1_u52ul")
+
+[node name="Sprite2D6" type="Sprite2D" parent="." unique_id=422414908]
+position = Vector2(472, -1778)
+texture = ExtResource("1_u52ul")
